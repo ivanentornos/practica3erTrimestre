@@ -8,6 +8,7 @@ public class Principal {
 		
 	
 		Pantalla.escribirString("\nTipos de figuras.");
+		Pantalla.escribirString("\nDiferentes figuras con sus datos.");
 		
 		Cuadrado cuadrado = new Cuadrado("verde", 2); 
 		Rectangulo rectangulo = new Rectangulo("rojo", 2, 4); 
