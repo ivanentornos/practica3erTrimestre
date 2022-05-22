@@ -1,5 +1,7 @@
 package figuras;
 
+import daw.com.Pantalla;
+
 public class Cuadrado {
 	
 	private String color;
@@ -43,6 +45,10 @@ public class Cuadrado {
 
 	public int calcularPerimetro(int lado) {
 		return (lado*4);
+	}
+	
+	public void mostrarFigura() {
+		Pantalla.escribirString("\nEsto es un cuadrado");
 	}
 
 }

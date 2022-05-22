@@ -1,5 +1,7 @@
 package figuras;
 
+import daw.com.Pantalla;
+
 public class Triangulo {
 	
 	private String color;
@@ -53,6 +55,10 @@ public class Triangulo {
 
 	public double calcularPerimetro(double base, double altura) {
 		return -1.0;
+	}
+	
+	public void mostrarFigura() {
+		Pantalla.escribirString("\nEsto es un triángulo");
 	}
 
 }

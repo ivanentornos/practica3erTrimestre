@@ -1,8 +1,13 @@
 package figuras;
 
+import daw.com.Pantalla;
+
 public class Principal {
 
 	public static void main(String[] args) {
+		
+	
+		Pantalla.escribirString("\nTipos de figuras.");
 		
 		Cuadrado cuadrado = new Cuadrado("verde", 2); 
 		Rectangulo rectangulo = new Rectangulo("rojo", 2, 4); 

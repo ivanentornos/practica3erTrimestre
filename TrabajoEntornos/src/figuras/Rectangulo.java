@@ -1,5 +1,7 @@
 package figuras;
 
+import daw.com.Pantalla;
+
 public class Rectangulo {
 	
 	private String color;
@@ -53,6 +55,10 @@ public class Rectangulo {
 
 	public double calcularPerimetro(double base, double altura) {
 		return (base*2)+(altura*2);
+	}
+	
+	public void mostrarFigura() {
+		Pantalla.escribirString("\nEsto es un rectángulo");
 	}
 
 }

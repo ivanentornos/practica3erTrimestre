@@ -1,5 +1,7 @@
 package figuras;
 
+import daw.com.Pantalla;
+
 public class Circulo{
 	
 	private String color;
@@ -42,6 +44,10 @@ public class Circulo{
 
 	public double calcularPerimetro(double radio) {
 		return 2 * Math.PI * radio;
+	}
+	
+	public void mostrarFigura() {
+		Pantalla.escribirString("\nEsto es un círculo");
 	}
 
 }
